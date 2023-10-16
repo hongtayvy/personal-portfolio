@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-lg
+}
+
+.projects img {
+  width: 100%;
+}
+
+/* color */
+.bg-primary {
+  background: #ACD8AA
+}
+
+.bg-secondary {
+  background: #FFFFFF;
+}
+
+.bg-accent {
+  background: #000000;
+}
+
+/* text */
+.text-primary {
+  color: #000000;
+}
+
+.text-accent {
+  color: #FFFFFF;
+}
+
+.head-text {
+  position: relative;
+}
+
+.text-on-image {
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 15%;
+}
+
+/* navigation */
+nav li a {
+  @apply px-4 py-5 text-lg;
+}
+
+nav li a:hover {
+  color: #FFFFFF;
+}
+
+.mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+}
+
+
+/* hero */
+/* h1 {
+  font-family: 'League Gothic', cursive;
+  line-height: 1.5 !important;
+} */
+
+.hero-info {
+  font-family: 'League Gothic'
+}
+
+p,
+li {
+  font-family: 'DM Sans'
+}
