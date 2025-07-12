@@ -87,7 +87,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-sm text-gray-400 mb-1">Email</div>
-                  <div className="text-lg font-medium">victor@example.com</div>
+                  <div className="text-lg font-medium">yangnv@live.com</div>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-sm text-gray-400 mb-1">Phone</div>
-                  <div className="text-lg font-medium">+1 (555) 123-4567</div>
+                  <div className="text-lg font-medium">(262) 613 - 7951</div>
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-sm text-gray-400 mb-1">Location</div>
-                  <div className="text-lg font-medium">San Francisco, CA</div>
+                  <div className="text-lg font-medium">Minneapolis, MN</div>
                 </div>
               </div>
             </div>
